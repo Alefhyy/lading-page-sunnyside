@@ -1,0 +1,92 @@
+
+a:hover {
+    transform: scale(1.06);
+}
+
+.links:hover {
+    text-transform: uppercase;
+    font-family: 'Fraunces', serif;
+    transform: scale(1.06);
+    background-color: #6FCFFF;
+}
+
+.line_button-1:hover {
+    color: #000000;
+    cursor: pointer;
+}
+
+.line_button-1::after {
+    content: '';
+    width: 100%;
+    height: 10px;
+    background-color: #FCD403;
+    border-radius: 4px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 42px;
+    z-index: 0;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform .25s ease;
+}
+
+.line_button-1:hover::after {
+    transform: scaleX(1);
+}
+
+.line_button-2:hover {
+    color: #000000;
+    cursor: pointer;
+}
+
+.line_button-2::after {
+    content: '';
+    width: 100%;
+    height: 10px;
+    background-color: #FE7666;
+    border-radius: 4px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 42px;
+    z-index: 0;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform .25s ease;
+}
+
+.line_button-2:hover::after {
+    transform: scaleX(1);
+}
+
+/* FOOTER */
+
+#logo_footer:hover {
+    transform: scale(1.06);
+    cursor: pointer;
+}
+
+.links_footer:hover {
+    color: white;
+}
+
+.facebook:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.instagram:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.twitter:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.pinterest:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}

@@ -1,0 +1,479 @@
+/*
+
+font-family: 'Barlow', sans-serif; >>> textos
+font-family: 'Fraunces', serif; >>> titulos/ hovers
+
+*/
+
+body {
+    font-size: 18px;
+}
+
+.logo {
+    margin-left: 60px;
+}
+
+#section1 {
+    height: 879px;
+    background-image: url('imagens/image-header.jpg');
+    background-size: cover;
+}
+
+.mobile-menu {
+    visibility: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+    display: inline-flex;
+}
+
+nav {
+    margin-left: 43px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 136px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    margin-right: 53px;
+}
+
+.nav-list li {
+    margin-left: 16px;
+}
+
+.mobile-menu {
+    cursor: pointer;
+    display:none;
+}
+
+a {
+    width: 153px;
+    height: 42px;
+    border-radius: 50px;
+    transition: 0.15s ease;
+    font-family: 'Barlow', sans-serif;
+    color: white;
+    justify-content: center;
+    padding-top: 19px;
+}
+
+h1 {
+    letter-spacing: 10px;
+    font-family: 'Fraunces', serif;
+    color: white;
+    font-size: 70px;
+    position: relative;
+    left: 0px;
+    top: 100px;
+    text-align: center;
+}
+
+.arrow {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    top: 175px;
+}
+
+
+#divs_first_column {
+    flex-direction: column;
+}
+
+/* SEÇÃO TRANSFORM */
+
+#div-transform {
+    background-color: #FFFBF8;
+    width: 613px;
+    height: 475px;
+    padding-left: 178px;
+    padding-top: 185px;
+}
+
+.h2_transform {
+    font-size: 50px;
+    font-family: 'Fraunces', serif;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.p_transform {
+    margin-bottom: 50px;
+    font-family: 'Barlow', sans-serif;
+    color: #838290;
+    line-height: 29px;
+}
+
+.button_learn-more_1 {
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Fraunces', serif;
+    border: none;
+    z-index: 1;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+/* DIV CUP */
+
+.div_cup {
+    width: 791px;
+    height: 660px;
+    background-image: url('imagens/image-stand-out.jpg');
+    background-size: cover;
+}
+
+/* DIV CHERRY */ 
+
+.div_cherry {
+    width: 791px;
+    height: 660px;
+    background-image: url('imagens/image-graphic-design.jpg');
+    background-size: cover;
+}
+
+.h3_cherry {
+    font-family: 'Fraunces', sans-serif;
+    color: #25574E; 
+    text-align: center;
+    font-size: 32px;
+    position: relative;
+    top: 445px;
+    font-weight:bolder;
+}
+
+.p_cherry {
+    color: #3A7768;
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+    position: relative;
+    top: 480px;
+}
+/**/
+
+/* SEGUNDA COLUNA */
+#divs_second_column {
+    background-color: rebeccapurple;
+    width: 788px;
+    position: relative;
+    left: 791px;
+    top: -1980px;
+    flex-direction: column;
+    height: 0;
+}
+
+/* DIV EGG */
+
+.div_egg {
+    width: 788px;
+    height: 660px;
+    background-image: url('imagens/image-transform.jpg');
+    background-size: cover;
+}
+
+/* DIV STAND */
+
+.div-stand {
+    background-color: #FFFBF8;
+    width: 619.5px;
+    height: 475px;
+    padding-left: 168px;
+    padding-top: 185px;
+}
+
+.h2_stand {
+    font-size: 50px;
+    font-family: 'Fraunces', serif;
+    margin-bottom: 50px;
+    font-weight: bold;  
+}
+
+
+.p_stand {
+    margin-bottom: 50px;
+    font-family: 'Barlow', sans-serif;
+    color: #838290;
+    line-height: 29px;
+}
+
+.button_learn-more_2 {
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Fraunces', serif;
+    border: none;
+    z-index: 1;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+/* DIV PHOTOGRAPHY */ 
+
+
+.div_photography {
+    width: 788px;
+    height: 660px;
+    background-image: url('imagens/image-photography.jpg');
+    background-size: cover;
+}
+
+.h3_photography {
+    font-family: 'Fraunces', sans-serif;
+    color: #1A4E64; 
+    text-align: center;
+    font-size: 32px;
+    position: relative;
+    top: 445px;
+    font-weight:bolder;
+}
+
+.p_photography {
+    color: #1B71A2;
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+    position: relative;
+    top: 480px;
+}
+
+/* SEÇÃO DOS CLIENTES */
+
+#section_clients {
+    background-color: #FFFBF8;
+}
+
+.client_testimonials {
+    position: relative;
+    top: 160px;
+    width: 378px;
+    letter-spacing: 7px;
+    font-size: 19.9px;
+    display: block;
+    margin: 0 auto;
+    color: rgb(124, 124, 124);
+    font-family: 'Fraunces', serif;
+}
+
+/* EMILY R. */
+
+.card-emily {
+    width: 386px;
+    height: 386px;
+    position: relative;
+    left: 180px;
+    top: 289px;
+}
+
+#emily_img {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.p_emily {
+    text-align: center;
+    position: relative;
+    top: 74px;
+    font-size: 20px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 100;
+    color: #77767B;
+    line-height: 40px;
+}
+
+.name_emily {
+    font-size: 21px;
+    font-family: 'Fraunces', serif;
+    font-weight: bold;
+    position: relative;
+    top: 90px;
+    text-align: center;
+}
+
+.cargo_emily {
+    color: #9e9d9e;
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+    position: relative;
+    top: 135px;
+}
+
+/* THOMAS S. */
+
+.card-thomas {
+    width: 386px;
+    height: 386px;
+    position: relative;
+    left: 598px;
+    top: -97px;
+}
+
+#thomas_img {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.p_thomas {
+    text-align: center;
+    position: relative;
+    font-size: 19px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 100;
+    color: #77767B;
+    line-height: 40px;
+    top: 74px;
+}
+
+.name_thomas {
+    text-align: center;
+    font-size: 21px;
+    font-family: 'Fraunces', serif;
+    font-weight: bold;
+    position: relative;
+    top: 90px;
+}
+
+.cargo-thomas {
+    text-align: center;
+    color: #9e9d9e;
+    font-family: 'Barlow', sans-serif;
+    position: relative;
+    top: 135px;
+}
+
+/* JENNIE F. */
+
+.card-jennie {
+    width: 386px;
+    height: 386px;
+    position: relative;
+    left: 1016px;
+    top: -482px;
+}
+
+#jennie_img {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.p_jennie {
+    text-align: center;
+    position: relative;
+    font-size: 19px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 100;
+    color: #77767B;
+    line-height: 40px;
+    top: 74px;
+}
+
+.name_jennie {
+    font-size: 21px;
+    font-family: 'Fraunces', serif;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    top: 90px;
+}
+
+.cargo-jennie {
+    color: #9e9d9e;
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+    position: relative;
+    text-align: center;
+    top: 135px;
+}
+
+/* CARDS GALLERY*/
+
+#cards_gallery {
+    position: absolute;
+    top: 3712px;
+    display: flex;
+}
+
+#milk {
+    background-size: cover;
+    width: 396px;
+    height: 492px;
+    background-image: url('imagens/image-gallery-milkbottles.jpg');
+}
+
+
+#orange {
+    background-size: cover;
+    width: 396px;
+    height: 492px;
+    background-image: url('imagens/image-gallery-orange.jpg');
+}
+
+#cone {
+    background-size: cover;
+    width: 396px;
+    height: 492px;
+    background-image: url('imagens/image-gallery-cone.jpg');
+}
+
+#sugar-cubes {
+    background-size: cover;
+    width: 396px;
+    height: 492px;
+    background-image: url('imagens/image-gallery-sugarcubes.jpg');
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #90D4C5;
+    width: 1583px;
+    height: 381px;
+    position: absolute;
+    top: 4202px;
+}
+
+#logo_footer {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 80px;
+    transition: 0.15s ease;
+}
+
+.nav-list_footer {
+    position: relative;
+    top: 130px;
+    font-size: 22px;
+    justify-content: center;
+    list-style-type: none;
+    display: flex;
+}
+
+.links_footer {
+    color: #478E7E;
+}
+
+.icones {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 200px;
+    width: 180px;
+    gap: 30px;
+    display: flex;
+}
+
